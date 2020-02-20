@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "type": "GHG",
+      "namesOfTypes": [
+        "CH4",
+        "CO2",
+        "N2O"
+      ]
+    },
+    {
+      "type": "process",
+      "namesOfTypes": [
+        "LUC-crops",
+        "LUC-forest",
+        "LUC-pasture",
+        "burning",
+        "enteric ferm.",
+        "fertilizer",
+        "manure management",
+        "manure-pasture",
+        "manure-soil",
+        "peatland",
+        "residues",
+        "rice"
+      ]
+    },
+    {
+      "type": "product",
+      "namesOfTypes": [
+        "beef",
+        "cereals",
+        "chicken",
+        "dairy",
+        "fiber",
+        "fruit",
+        "oil crops",
+        "other meat",
+        "pork",
+        "pulses",
+        "spices",
+        "sugar",
+        "veg",
+        "wood"
+      ]
+    }
+  ]
+}
