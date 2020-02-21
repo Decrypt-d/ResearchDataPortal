@@ -11,9 +11,9 @@ function parseFileTitleToDB(fileName) {
 	const tokens = fileTitle.split("_");
 	const handle = db.defaults({"data" : []}).get("data");
 	if (!handle.find({ "type" : tokens[1]}).value()) 
-		handle.push({"type" : tokens[1], "namesOfTypes" : []}).write();
-	if (tokens[2] !== undefined && !handle.find({"type" : tokens[1]}).get("namesOfTypes").value().includes(tokens[2])) {
-		handle.find({"type" : tokens[1]}).get("namesOfTypes").value().push(tokens[2]);
+		handle.push({"type" : tokens[1], "namesOfType" : {}}).write();
+	if (tokens[2] !== undefined && !(tokens[2] in handle.find({"type" : tokens[1]}).get("namesOfType").value())) {
+		handle.find({"type" : tokens[1]}).get("namesOfType").value()[tokens[2]] = fileName;
 		handle.write()
 	}
 }
@@ -38,4 +38,3 @@ function loadFileNameToDatabase(dir) {
 loadFileNameToDatabase("Data")
 module.exports.loadFileNameToDatabase = loadFileNameToDatabase
 module.exports.getAllValueOfSpecificField = getAllValueOfSpecificField
-

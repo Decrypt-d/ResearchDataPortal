@@ -2,47 +2,47 @@
   "data": [
     {
       "type": "GHG",
-      "namesOfTypes": [
-        "CH4",
-        "CO2",
-        "N2O"
-      ]
+      "namesOfType": {
+        "CH4": "emissions_GHG_CH4 (Gt CO2-eq).csv",
+        "CO2": "emissions_GHG_CO2 (Gt CO2-eq).csv",
+        "N2O": "emissions_GHG_N2O (Gt CO2-eq).csv"
+      }
     },
     {
       "type": "process",
-      "namesOfTypes": [
-        "LUC-crops",
-        "LUC-forest",
-        "LUC-pasture",
-        "burning",
-        "enteric ferm.",
-        "fertilizer",
-        "manure management",
-        "manure-pasture",
-        "manure-soil",
-        "peatland",
-        "residues",
-        "rice"
-      ]
+      "namesOfType": {
+        "LUC-crops": "emissions_process_LUC-crops (Gt CO2-eq).csv",
+        "LUC-forest": "emissions_process_LUC-forest (Gt CO2-eq).csv",
+        "LUC-pasture": "emissions_process_LUC-pasture (Gt CO2-eq).csv",
+        "burning": "emissions_process_burning (Gt CO2-eq).csv",
+        "enteric ferm.": "emissions_process_enteric ferm. (Gt CO2-eq).csv",
+        "fertilizer": "emissions_process_fertilizer (Gt CO2-eq).csv",
+        "manure management": "emissions_process_manure management (Gt CO2-eq).csv",
+        "manure-pasture": "emissions_process_manure-pasture (Gt CO2-eq).csv",
+        "manure-soil": "emissions_process_manure-soil (Gt CO2-eq).csv",
+        "peatland": "emissions_process_peatland (Gt CO2-eq).csv",
+        "residues": "emissions_process_residues (Gt CO2-eq).csv",
+        "rice": "emissions_process_rice (Gt CO2-eq).csv"
+      }
     },
     {
       "type": "product",
-      "namesOfTypes": [
-        "beef",
-        "cereals",
-        "chicken",
-        "dairy",
-        "fiber",
-        "fruit",
-        "oil crops",
-        "other meat",
-        "pork",
-        "pulses",
-        "spices",
-        "sugar",
-        "veg",
-        "wood"
-      ]
+      "namesOfType": {
+        "beef": "emissions_product_beef (Gt CO2-eq).csv",
+        "cereals": "emissions_product_cereals (Gt CO2-eq).csv",
+        "chicken": "emissions_product_chicken (Gt CO2-eq).csv",
+        "dairy": "emissions_product_dairy (Gt CO2-eq).csv",
+        "fiber": "emissions_product_fiber (Gt CO2-eq).csv",
+        "fruit": "emissions_product_fruit (Gt CO2-eq).csv",
+        "oil crops": "emissions_product_oil crops (Gt CO2-eq).csv",
+        "other meat": "emissions_product_other meat (Gt CO2-eq).csv",
+        "pork": "emissions_product_pork (Gt CO2-eq).csv",
+        "pulses": "emissions_product_pulses (Gt CO2-eq).csv",
+        "spices": "emissions_product_spices (Gt CO2-eq).csv",
+        "sugar": "emissions_product_sugar (Gt CO2-eq).csv",
+        "veg": "emissions_product_veg (Gt CO2-eq).csv",
+        "wood": "emissions_product_wood (Gt CO2-eq).csv"
+      }
     }
   ]
 }
